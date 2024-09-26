@@ -5,6 +5,8 @@ module "s3" {
   
 
 }
+
+
 module "vpc" {
     source = "./VPC"
     cidr = var.cidr
