@@ -1,0 +1,14 @@
+## TO INSTALL TOMCAT , SHOULD INSTALL JAVA
+yum install -y
+
+## DOWNLOAD TOMCAT
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.97/bin/apache-tomcat-9.0.97.tar.gz
+
+## UNZIP TOMACT DOWNLOADED FILE & MOVE TO BIN FOLDER
+tar -zvxf apache-tomcat-9.0.97.tar.gz
+
+## MOVE TO UNZIPPED DIRECTORY
+cd apache-tomcat-9.0.97/
+
+## RUN STARTUP.SH FILE TO START TOMCAT
+./startup.sh
