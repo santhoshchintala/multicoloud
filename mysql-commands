@@ -1,0 +1,7 @@
+CREATE TABLE Actors (
+FirstName VARCHAR(20),
+SecondName VARCHAR(20),
+DoB DATE,
+Gender ENUM('Male','Female','Other'),
+MaritalStatus ENUM('Married', 'Divorced', 'Single'),
+NetWorthInMillions DECIMAL);
